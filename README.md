@@ -1,22 +1,35 @@
-## Contributions
-Student #1 
-1. Cleared all trees / grass / unwanted blocks that could trigger border collision condition across the village
-2. Tested plots for validity through conditions described in PDF
-3. Terraformed the chosen plots
-4. Build a wall that goes 7 blocks deep underground to stop tunnelling and swimming attempts
-5. Chosen waypoints for the paths in task C
+##Minecraft Village Builder
 
-Student #2 
-1. Building the exterior of the house
-2. Used subdivision to create multiple rooms
-3. Added doors to each room
-4. Added furniture to each themed room
-5. Customizing the roof to adapt and align with the main entrance.
+A C++ program that procedurally generates a village layout — terraforming land, subdividing it into plots, placing rooms and furniture, and connecting everything with pathways — inspired by Minecraft-style world generation.
 
-Student #3 
-1. Implemented custom PathNode, PathQueue, and VisitedList data structures for pathfinding without using STL containers
-2. Developed bidirectional breadth-first search (BFS) algorithm to efficiently find paths between waypoints and house entrances
-3. Created a block caching system to store terrain data in memory, significantly reducing Minecraft API calls and improving pathfinding performance
-4. Implemented adaptive terrain navigation that handles height differences, plot boundaries, and entrance proximity during path exploration
-5. Built 3-block wide gravel paths connecting all waypoints and houses, with collision avoidance for plot walls and entrance doors
-6. Placed decorative lamp posts (oak fence with glowstone) at each waypoint to mark the village path network
+What it does
+
+
+Terraforms a 3D grid-based world, clearing and flattening land ready for construction.
+Subdivides plots of land into valid building sites and places rooms, doors, and furniture within them according to size and placement constraints.
+Generates pathways connecting waypoints across the village, including handling for elevation changes such as mountains.
+Validates each stage of generation against a structured suite of component and edge-case tests.
+
+
+Skills demonstrated
+
+
+Object-oriented design and modular architecture in C++
+Procedural generation algorithms
+Spatial/grid-based data structures
+Save/load logic with crash-resilience and edge-case handling
+Component and edge-case test design
+
+
+Tech stack
+
+C++
+
+Building it
+
+bashmake
+./gen-village
+
+Project context
+
+Originally developed as a university systems programming assignment; uploaded here as a personal portfolio copy.
