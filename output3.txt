@@ -1,0 +1,242 @@
+COMPONENT 3: MOUNTAIN WORLD PATHFINDING
+Seed is 42
+
+Total plots: 4
+Total waypoints: 5
+
+========================================
+Step 1: Clearing Obstacles
+========================================
+  [CLEARING TREES] Using /fill command...
+  [CLEARED 36 chunks]
+Obstacles cleared!
+
+========================================
+Step 2: Preparing Block Cache
+========================================
+  [CACHE] Initialising block cache...
+  [CACHE] Area: (2545, 99, -112) to (2688, 134, 43)
+  [CACHE] Allocating 3D array: 144x36x156 = 808704 blocks
+  [CACHE] Fetching blocks in bulk... Done!
+  [CACHE] Populating cache array... Done!
+  [CACHE] Cache ready with 808704 blocks!
+Cache ready!
+
+========================================
+Step 3: Executing Pathfinding
+========================================
+
+
+========================================
+Starting Task C: PathFinding
+========================================
+
+Step 1: Connecting waypoints...
+Connecting 5 waypoints
+  Waypoint 0 at (2612,117,-44) - INVALID
+    Attempting to fix waypoint 0...
+    Fixed! New position: (2607,115,-49)
+  Waypoint 1 at (2608,119,-30) - VALID
+  Waypoint 2 at (2615,120,-15) - VALID
+  Waypoint 3 at (2630,112,-50) - VALID
+  Waypoint 4 at (2600,117,-40) - VALID
+Connecting Waypoints 0 to 4
+Finding path from (2607,115,-49) to (2600,117,-40)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (2607,117,-41)!
+  BFS ended after 116 iterations
+  Path found with 17 steps
+Connecting Waypoints 4 to 1
+Finding path from (2600,117,-40) to (2608,119,-30)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (2608, 118, -39)!
+  BFS ended after 147 iterations
+  Path found with 19 steps
+Connecting Waypoints 1 to 2
+Finding path from (2608,119,-30) to (2615,120,-15)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 42 | Backward: 42
+  Paths met at (2615, 119, -26)!
+  BFS ended after 229 iterations
+  Path found with 23 steps
+Connecting Waypoints 0 to 3
+Finding path from (2607,115,-49) to (2630,112,-50)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 30
+  Iteration 200 | Forward: 42 | Backward: 43
+  Paths met at (2619, 112, -49)!
+  BFS ended after 266 iterations
+  Path found with 25 steps
+  Building path with 17 segments...
+  Path built!
+  Building path with 19 segments...
+  Path built!
+  Building path with 23 segments...
+  Path built!
+  Building path with 25 segments...
+  Path built!
+Waypoints connected and Path build!
+
+Step 2: Connecting houses to waypoints...
+Connecting house 0 to nearest waypoint...
+  House entrance at (2604,115,-54)
+  Start point (2 blocks from entrance): (2604,114,-54)
+  Connecting to waypoint 0 at (2607,115,-49)
+Finding path from (2604,114,-54) to (2607,115,-49)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Paths met at (2607, 114, -53)!
+  BFS ended after 27 iterations
+  Path found with 9 steps
+  Building path with 9 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 1 to nearest waypoint...
+  House entrance at (2622,120,-36)
+  Start point (2 blocks from entrance): (2622,117,-36)
+  Connecting to waypoint 1 at (2608,119,-30)
+Finding path from (2622,117,-36) to (2608,119,-30)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (2618,116,-30)!
+  BFS ended after 182 iterations
+  Path found with 21 steps
+  Building path with 21 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 2 to nearest waypoint...
+  House entrance at (2599,112,-18)
+  Start point (2 blocks from entrance): (2599,119,-18)
+  Connecting to waypoint 1 at (2608,119,-30)
+Finding path from (2599,119,-18) to (2608,119,-30)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 42 | Backward: 42
+  Paths met at (2600,119,-28)!
+  BFS ended after 204 iterations
+  Path found with 22 steps
+  Building path with 22 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 3 to nearest waypoint...
+  House entrance at (2629,118,-60)
+  Start point (2 blocks from entrance): (2629,112,-60)
+  Connecting to waypoint 3 at (2630,112,-50)
+Finding path from (2629,112,-60) to (2630,112,-50)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Paths met at (2630,112,-55)!
+  BFS ended after 59 iterations
+  Path found with 12 steps
+  Building path with 12 segments...
+  Path built!
+  ✓ Path built successfully!
+Houses connected!
+
+Step 3: Building waypoint structures(lamps)...
+
+========================================
+Task C Complete
+========================================
+
+
+========================================
+TEST COMPLETE!
+========================================

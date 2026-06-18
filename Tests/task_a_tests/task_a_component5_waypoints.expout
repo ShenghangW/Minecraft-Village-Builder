@@ -1,0 +1,215 @@
+COMPONENT 5: GET WAYPOINTS
+Seed is 42
+
+Village bounds: (270, 172) to (370, 272)
+  [CLEARING TREES] Using /fill command...
+  [CLEARED 147 chunks]
+         Finding plots...
+  [VALIDATION START] Checking 14x14 plot...
+    Scanning row 0/14...
+    Scanning row 5/14...
+    Scanning row 10/14...
+  [TERRAIN DONE] minY=65, maxY=68, water=0
+  [CHECKING BORDER]...
+  [BORDER OK, CHECKING INTERSECTIONS]
+  [ACCEPTED] VALID PLOT!
+Plot 1 found at (275, 68, 177) with size 14x14
+  [VALIDATION START] Checking 15x15 plot...
+    Scanning row 0/15...
+    Scanning row 5/15...
+    Scanning row 10/15...
+  [TERRAIN DONE] minY=66, maxY=69, water=0
+  [CHECKING BORDER]...
+  [BORDER OK, CHECKING INTERSECTIONS]
+  [REJECTED] Plot intersection
+  [VALIDATION START] Checking 15x15 plot...
+    Scanning row 0/15...
+    Scanning row 5/15...
+    Scanning row 10/15...
+  [TERRAIN DONE] minY=66, maxY=69, water=0
+  [CHECKING BORDER]...
+  [BORDER OK, CHECKING INTERSECTIONS]
+  [REJECTED] Plot intersection
+  [VALIDATION START] Checking 15x15 plot...
+    Scanning row 0/15...
+    Scanning row 5/15...
+    Scanning row 10/15...
+  [TERRAIN DONE] minY=67, maxY=69, water=0
+  [CHECKING BORDER]...
+  [BORDER OK, CHECKING INTERSECTIONS]
+  [ACCEPTED] VALID PLOT!
+Plot 2 found at (290, 69, 177) with size 15x15
+         Doing some landscaping...
+  [TERRAFORMING] Processing 706 columns...
+  [TERRAFORMING COMPLETE]
+  [TERRAFORMING] Processing 924 columns...
+  [TERRAFORMING COMPLETE]
+         Placing a cool wall around the village...
+Building village wall...
+  Building north wall...
+  Building south wall...
+  Building west wall...
+  Building east wall...
+Village wall complete!
+         Finding waypoints...
+Finding waypoints...
+Village boundaries: X[270 to 370], Z[172 to 272]
+Pathfinding safe zone: X[275 to 365], Z[177 to 267]
+Finding waypoint for plot 0 at (281, 183)...
+Testing position (298, 200) - dist to center: 31.1127
+Valid position!
+Waypoint placed at (298, 70, 200) - distance to center: 31.1127
+Testing position (297, 199) - dist to center: 32.5269
+Testing position (296, 198) - dist to center: 33.9411
+Testing position (295, 197) - dist to center: 35.3553
+Testing position (294, 196) - dist to center: 36.7696
+Testing position (293, 195) - dist to center: 38.1838
+Testing position (292, 194) - dist to center: 39.598
+Testing position (291, 193) - dist to center: 41.0122
+Testing position (290, 192) - dist to center: 42.4264
+Testing position (298, 183) - dist to center: 44.7772
+Testing position (281, 200) - dist to center: 44.7772
+Testing position (281, 199) - dist to center: 45.2769
+Testing position (297, 183) - dist to center: 45.2769
+Testing position (296, 183) - dist to center: 45.793
+Testing position (281, 198) - dist to center: 45.793
+Testing position (281, 197) - dist to center: 46.3249
+Testing position (295, 183) - dist to center: 46.3249
+Testing position (281, 196) - dist to center: 46.8722
+Testing position (294, 183) - dist to center: 46.8722
+Testing position (281, 195) - dist to center: 47.4342
+Testing position (293, 183) - dist to center: 47.4342
+Testing position (292, 183) - dist to center: 48.0104
+Testing position (281, 194) - dist to center: 48.0104
+Testing position (281, 193) - dist to center: 48.6004
+Testing position (291, 183) - dist to center: 48.6004
+Testing position (290, 183) - dist to center: 49.2037
+Testing position (281, 192) - dist to center: 49.2037
+Testing position (290, 175) - dist to center: 55.7584
+Testing position (273, 192) - dist to center: 55.7584
+Testing position (272, 193) - dist to center: 56.0803
+Testing position (291, 174) - dist to center: 56.0803
+Testing position (292, 173) - dist to center: 56.4358
+Testing position (271, 194) - dist to center: 56.4358
+Testing position (270, 195) - dist to center: 56.8243
+Testing position (293, 172) - dist to center: 56.8243
+Testing position (269, 196) - dist to center: 57.2451
+Testing position (294, 171) - dist to center: 57.2451
+Testing position (268, 197) - dist to center: 57.6975
+Testing position (295, 170) - dist to center: 57.6975
+Testing position (267, 198) - dist to center: 58.1808
+Testing position (296, 169) - dist to center: 58.1808
+Testing position (297, 168) - dist to center: 58.6941
+Testing position (266, 199) - dist to center: 58.6941
+Testing position (265, 200) - dist to center: 59.2368
+Testing position (298, 167) - dist to center: 59.2368
+Testing position (281, 175) - dist to center: 61.0737
+Testing position (273, 183) - dist to center: 61.0737
+Testing position (281, 174) - dist to center: 61.8466
+Testing position (272, 183) - dist to center: 61.8466
+Testing position (271, 183) - dist to center: 62.6259
+Testing position (281, 173) - dist to center: 62.6259
+Testing position (270, 183) - dist to center: 63.4114
+Testing position (281, 172) - dist to center: 63.4114
+Testing position (269, 183) - dist to center: 64.2028
+Testing position (281, 171) - dist to center: 64.2028
+Testing position (268, 183) - dist to center: 65
+Testing position (281, 170) - dist to center: 65
+Testing position (281, 169) - dist to center: 65.8027
+Testing position (267, 183) - dist to center: 65.8027
+Testing position (273, 175) - dist to center: 66.468
+Testing position (281, 168) - dist to center: 66.6108
+Testing position (266, 183) - dist to center: 66.6108
+Testing position (265, 183) - dist to center: 67.424
+Testing position (281, 167) - dist to center: 67.424
+Testing position (272, 174) - dist to center: 67.8823
+Testing position (271, 173) - dist to center: 69.2965
+Testing position (270, 172) - dist to center: 70.7107
+Testing position (269, 171) - dist to center: 72.1249
+Testing position (268, 170) - dist to center: 73.5391
+Testing position (267, 169) - dist to center: 74.9533
+Testing position (266, 168) - dist to center: 76.3675
+Testing position (265, 167) - dist to center: 77.7817
+Finding waypoint for plot 1 at (297, 184)...
+Testing position (314, 201) - dist to center: 21.8403
+Valid position!
+Waypoint placed at (314, 70, 201) - distance to center: 21.8403
+Testing position (313, 200) - dist to center: 23.0868
+Testing position (312, 199) - dist to center: 24.3516
+Testing position (311, 198) - dist to center: 25.632
+Testing position (310, 197) - dist to center: 26.9258
+Testing position (309, 196) - dist to center: 28.2312
+Testing position (308, 195) - dist to center: 29.5466
+Testing position (307, 194) - dist to center: 30.8707
+Testing position (297, 201) - dist to center: 31.1448
+Testing position (297, 200) - dist to center: 31.8277
+Testing position (306, 193) - dist to center: 32.2025
+Testing position (297, 199) - dist to center: 32.5269
+Testing position (297, 198) - dist to center: 33.2415
+Testing position (297, 197) - dist to center: 33.9706
+Testing position (297, 196) - dist to center: 34.7131
+Testing position (297, 195) - dist to center: 35.4683
+Testing position (297, 194) - dist to center: 36.2353
+Testing position (297, 193) - dist to center: 37.0135
+Testing position (314, 184) - dist to center: 38.4708
+Testing position (313, 184) - dist to center: 38.6394
+Testing position (312, 184) - dist to center: 38.833
+Testing position (311, 184) - dist to center: 39.0512
+Testing position (310, 184) - dist to center: 39.2938
+Testing position (309, 184) - dist to center: 39.5601
+Testing position (308, 184) - dist to center: 39.8497
+Testing position (307, 184) - dist to center: 40.1622
+Testing position (306, 184) - dist to center: 40.4969
+Testing position (288, 193) - dist to center: 43.1856
+Testing position (287, 194) - dist to center: 43.2782
+Testing position (286, 195) - dist to center: 43.4166
+Testing position (285, 196) - dist to center: 43.6005
+Testing position (284, 197) - dist to center: 43.8292
+Testing position (283, 198) - dist to center: 44.1022
+Testing position (282, 199) - dist to center: 44.4185
+Testing position (281, 200) - dist to center: 44.7772
+Testing position (280, 201) - dist to center: 45.1774
+Testing position (306, 175) - dist to center: 49.0408
+Testing position (288, 184) - dist to center: 49.679
+Testing position (307, 174) - dist to center: 49.7293
+Testing position (287, 184) - dist to center: 50.3289
+Testing position (308, 173) - dist to center: 50.448
+Testing position (286, 184) - dist to center: 50.9902
+Testing position (309, 172) - dist to center: 51.1957
+Testing position (285, 184) - dist to center: 51.6624
+Testing position (310, 171) - dist to center: 51.9711
+Testing position (297, 175) - dist to center: 52.3259
+Testing position (284, 184) - dist to center: 52.345
+Testing position (311, 170) - dist to center: 52.7731
+Testing position (283, 184) - dist to center: 53.0377
+Testing position (297, 174) - dist to center: 53.2259
+Testing position (312, 169) - dist to center: 53.6004
+Testing position (282, 184) - dist to center: 53.7401
+Testing position (297, 173) - dist to center: 54.1295
+Testing position (313, 168) - dist to center: 54.4518
+Testing position (281, 184) - dist to center: 54.4518
+Testing position (297, 172) - dist to center: 55.0364
+Testing position (280, 184) - dist to center: 55.1725
+Testing position (314, 167) - dist to center: 55.3263
+Testing position (297, 171) - dist to center: 55.9464
+Testing position (288, 175) - dist to center: 56.8595
+Testing position (297, 170) - dist to center: 56.8595
+Testing position (297, 169) - dist to center: 57.7754
+Testing position (287, 174) - dist to center: 58.2495
+Testing position (297, 168) - dist to center: 58.6941
+Testing position (297, 167) - dist to center: 59.6154
+Testing position (286, 173) - dist to center: 59.6406
+Testing position (285, 172) - dist to center: 61.0328
+Testing position (284, 171) - dist to center: 62.426
+Testing position (283, 170) - dist to center: 63.8201
+Testing position (282, 169) - dist to center: 65.215
+Testing position (281, 168) - dist to center: 66.6108
+Testing position (280, 167) - dist to center: 68.0074
+Finding central waypoint...
+Testing center position (320, 222)
+Valid position!
+Center waypoint at (320, 72, 222)
+
+========================================
+Generated 3 total waypoints
+========================================

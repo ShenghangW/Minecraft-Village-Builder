@@ -1,0 +1,257 @@
+COMPONENT 2: 3D WORLD PATHFINDING
+Seed is 42
+
+Total plots: 4
+Total waypoints: 5
+
+========================================
+Step 1: Clearing Obstacles
+========================================
+  [CLEARING TREES] Using /fill command...
+  [CLEARED 126 chunks]
+Obstacles cleared!
+
+========================================
+Step 2: Preparing Block Cache
+========================================
+  [CACHE] Initialising block cache...
+  [CACHE] Area: (997, 57, 1244) to (1188, 79, 1447)
+  [CACHE] Allocating 3D array: 192x23x204 = 900864 blocks
+  [CACHE] Fetching blocks in bulk... Done!
+  [CACHE] Populating cache array... Done!
+  [CACHE] Cache ready with 900864 blocks!
+Cache ready!
+
+========================================
+Step 3: Executing Pathfinding
+========================================
+
+
+========================================
+Starting Task C: PathFinding
+========================================
+
+Step 1: Connecting waypoints...
+Connecting 5 waypoints
+  Waypoint 0 at (1064,68,1359) - VALID
+  Waypoint 1 at (1112,65,1346) - VALID
+  Waypoint 2 at (1071,65,1318) - VALID
+  Waypoint 3 at (1060,68,1373) - VALID
+  Waypoint 4 at (1067,66,1340) - VALID
+Connecting Waypoints 0 to 3
+Finding path from (1064,68,1359) to (1060,68,1373)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (1064,69,1368)!
+  BFS ended after 156 iterations
+  Path found with 19 steps
+Connecting Waypoints 0 to 4
+Finding path from (1064,68,1359) to (1067,66,1340)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 42 | Backward: 42
+  Paths met at (1067, 66, 1351)!
+  BFS ended after 238 iterations
+  Path found with 23 steps
+Connecting Waypoints 4 to 2
+Finding path from (1067,66,1340) to (1071,65,1318)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 42 | Backward: 42
+  Iteration 300 | Forward: 52 | Backward: 52
+  Paths met at (1071, 65, 1331)!
+  BFS ended after 332 iterations
+  Path found with 27 steps
+Connecting Waypoints 4 to 1
+Finding path from (1067,66,1340) to (1112,65,1346)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 42 | Backward: 42
+  Iteration 300 | Forward: 52 | Backward: 52
+  Iteration 400 | Forward: 60 | Backward: 59
+  Iteration 500 | Forward: 66 | Backward: 61
+  Iteration 600 | Forward: 72 | Backward: 66
+  Iteration 700 | Forward: 78 | Backward: 71
+  Iteration 800 | Forward: 82 | Backward: 76
+  Iteration 900 | Forward: 88 | Backward: 82
+  Iteration 1000 | Forward: 92 | Backward: 86
+  Iteration 1100 | Forward: 96 | Backward: 92
+  Iteration 1200 | Forward: 99 | Backward: 96
+  Paths met at (1092, 65, 1340)!
+  BFS ended after 1202 iterations
+  Path found with 52 steps
+  Building path with 19 segments...
+  Path built!
+  Building path with 23 segments...
+  Path built!
+  Building path with 27 segments...
+  Path built!
+  Building path with 52 segments...
+  Path built!
+Waypoints connected and Path build!
+
+Step 2: Connecting houses to waypoints...
+Connecting house 0 to nearest waypoint...
+  House entrance at (1087,71,1369)
+  Start point (2 blocks from entrance): (1087,70,1369)
+  Connecting to waypoint 0 at (1064,68,1359)
+Finding path from (1087,70,1369) to (1064,68,1359)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 40 | Backward: 42
+  Iteration 300 | Forward: 47 | Backward: 52
+  Iteration 400 | Forward: 57 | Backward: 60
+  Paths met at (1077, 70, 1363)!
+  BFS ended after 489 iterations
+  Path found with 34 steps
+  Building path with 34 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 1 to nearest waypoint...
+  House entrance at (1122,66,1352)
+  Start point (2 blocks from entrance): (1122,65,1352)
+  Connecting to waypoint 1 at (1112,65,1346)
+Finding path from (1122,65,1352) to (1112,65,1346)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (1120,64,1346)!
+  BFS ended after 114 iterations
+  Path found with 17 steps
+  Building path with 17 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 2 to nearest waypoint...
+  House entrance at (1059,65,1308)
+  Start point (2 blocks from entrance): (1059,64,1308)
+  Connecting to waypoint 2 at (1071,65,1318)
+Finding path from (1059,64,1308) to (1071,65,1318)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Iteration 200 | Forward: 41 | Backward: 42
+  Paths met at (1069, 64, 1309)!
+  BFS ended after 218 iterations
+  Path found with 23 steps
+  Building path with 23 segments...
+  Path built!
+  ✓ Path built successfully!
+Connecting house 3 to nearest waypoint...
+  House entrance at (1065,70,1383)
+  Start point (2 blocks from entrance): (1065,69,1383)
+  Connecting to waypoint 3 at (1060,68,1373)
+Finding path from (1065,69,1383) to (1060,68,1373)
+  Start valid? Yes
+  Goal valid? Yes
+  Starting Bidirectional BFS loop...
+  Iteration 1 | Forward: 1 | Backward: 1
+  Iteration 2 | Forward: 4 | Backward: 4
+  Iteration 3 | Forward: 6 | Backward: 6
+  Iteration 4 | Forward: 8 | Backward: 8
+  Iteration 5 | Forward: 8 | Backward: 8
+  Iteration 6 | Forward: 8 | Backward: 8
+  Iteration 7 | Forward: 10 | Backward: 10
+  Iteration 8 | Forward: 10 | Backward: 10
+  Iteration 9 | Forward: 10 | Backward: 10
+  Iteration 10 | Forward: 12 | Backward: 12
+  Iteration 100 | Forward: 32 | Backward: 32
+  Paths met at (1061, 69, 1380)!
+  BFS ended after 105 iterations
+  Path found with 16 steps
+  Building path with 16 segments...
+  Path built!
+  ✓ Path built successfully!
+Houses connected!
+
+Step 3: Building waypoint structures(lamps)...
+
+========================================
+Task C Complete
+========================================
+
+
+========================================
+TEST COMPLETE!
+========================================

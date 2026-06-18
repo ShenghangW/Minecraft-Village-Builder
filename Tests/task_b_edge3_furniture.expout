@@ -1,0 +1,89 @@
+COMPONENT 4: Furniture Placement
+Seed is 42
+
+Total plots: 1
+
+	Building 20x20 house with height 6
+Starting subdivision for area (101,121) to (118,138)
+Interior dimensions: 18x18
+	Created Bedroom at (101,121) to (104,124)  | Size is 4x4 | Area is 16
+	Created Kitchen at (101,126) to (104,129)  | Size is 4x4 | Area is 16
+	Created Bathroom at (106,121) to (109,124)  | Size is 4x4 | Area is 16
+	Created Living Room at (106,126) to (109,129)  | Size is 4x4 | Area is 16
+	Created Bedroom at (101,131) to (104,138)  | Size is 4x8 | Area is 32
+	Created Kitchen at (106,131) to (109,138)  | Size is 4x8 | Area is 32
+	Created Bathroom at (111,121) to (118,124)  | Size is 8x4 | Area is 32
+	Created Living Room at (111,126) to (118,129)  | Size is 8x4 | Area is 32
+	Created Bedroom at (111,131) to (118,138)  | Size is 8x8 | Area is 64
+Total rooms created 9
+	 Placing main entrance at generated plot (109, -60, 120)
+	 Placing doors on all room walls...
+	  Placed door at (102,-60,125)
+	  Placed door at 105, -60, 122
+	  Placed door at 105, -60, 127
+	  Placed door at (102,-60,130)
+	  Placed door at (107,-60,125)
+	  Placed door at 110, -60, 122
+	  Placed door at (107,-60,130)
+	  Placed door at 110, -60, 127
+	  Placed door at 105, -60, 134
+	  Placed door at 110, -60, 134
+	  Placed door at (114,-60,125)
+	  Placed door at (114,-60,130)
+	 Total doors placed: 12
+
+	Decorating rooms with furniture...
+	Bedroom at (101,121) to (104,124):
+  Furniture 1 Bed placed at (102,-60,122)
+  Furniture 2 Chest placed at (102,-60,123)
+  Furniture 3 Bedside table placed at (104,-60,122)
+Finished decorating Bedroom
+
+	Kitchen at (101,126) to (104,129):
+  Furniture 1 Sink placed at (102,-60,127)
+  Furniture 2 Counter placed at (103,-60,127)
+  Furniture 3 Furnance placed at (104,-60,127)
+Finished decorating Kitchen
+
+	Bathroom at (106,121) to (109,124):
+  Furniture 1 Toilet placed at (107,-60,122)
+  Furniture 2 Sink placed at (108,-60,122)
+  Furniture 3 Small Bathtub placed at (107,-60,123)
+Finished decorating Bathroom
+
+	Living Room at (106,126) to (109,129):
+  Furniture 1 Bookshelf placed at (107,-60,127)
+  Furniture 2 Table placed at (108,-60,127)
+  Furniture 3 Chair placed at (109,-60,127)
+Finished decorating Living Room
+
+	Bedroom at (101,131) to (104,138):
+  Furniture 1 Bed placed at (102,-60,132)
+  Furniture 2 Chest placed at (102,-60,133)
+  Furniture 3 Bedside table placed at (104,-60,132)
+Finished decorating Bedroom
+
+	Kitchen at (106,131) to (109,138):
+  Furniture 1 Sink placed at (107,-60,132)
+  Furniture 2 Counter placed at (108,-60,132)
+  Furniture 3 Furnance placed at (109,-60,132)
+Finished decorating Kitchen
+
+	Bathroom at (111,121) to (118,124):
+  Furniture 1 Toilet placed at (112,-60,122)
+  Furniture 2 Sink placed at (113,-60,122)
+  Furniture 3 Small Bathtub placed at (112,-60,123)
+Finished decorating Bathroom
+
+	Living Room at (111,126) to (118,129):
+  Furniture 1 Bookshelf placed at (112,-60,127)
+  Furniture 2 Table placed at (113,-60,127)
+  Furniture 3 Chair placed at (114,-60,127)
+Finished decorating Living Room
+
+	Bedroom at (111,131) to (118,138):
+  Furniture 1 Bed placed at (112,-60,132)
+  Furniture 2 Chest placed at (112,-60,133)
+  Furniture 3 Bedside table placed at (114,-60,132)
+Finished decorating Bedroom
+

@@ -1,0 +1,66 @@
+COMPONENT 3: Placing Doors
+Seed is 42
+
+Total plots: 3
+
+	Building 16x16 house with height 6
+Starting subdivision for area (101,101) to (114,114)
+Interior dimensions: 14x14
+	Created Bedroom at (101,101) to (107,107)  | Size is 7x7 | Area is 49
+	Created Kitchen at (101,109) to (107,114)  | Size is 7x6 | Area is 42
+	Created Bathroom at (109,101) to (114,107)  | Size is 6x7 | Area is 42
+	Created Living Room at (109,109) to (114,114)  | Size is 6x6 | Area is 36
+Total rooms created 4
+	 Placing main entrance at generated plot (100, -60, 107)
+	 Placing doors on all room walls...
+	  Placed door at (104,-60,108)
+	  Placed door at 108, -60, 104
+	  Placed door at 108, -60, 111
+	  Placed door at (111,-60,108)
+	 Total doors placed: 4
+
+	Building 14x14 house with height 7
+Starting subdivision for area (121,101) to (132,112)
+Interior dimensions: 12x12
+	Created Bedroom at (121,101) to (126,106)  | Size is 6x6 | Area is 36
+	Created Kitchen at (121,108) to (126,112)  | Size is 6x5 | Area is 30
+	Created Bathroom at (128,101) to (132,106)  | Size is 5x6 | Area is 30
+	Created Living Room at (128,108) to (132,112)  | Size is 5x5 | Area is 25
+Total rooms created 4
+	 Placing main entrance at generated plot (120, -60, 106)
+	 Placing doors on all room walls...
+	  Placed door at (123,-60,107)
+	  Placed door at 127, -60, 103
+	  Placed door at 127, -60, 110
+	  Placed door at (130,-60,107)
+	 Total doors placed: 4
+
+	Building 20x20 house with height 8
+Starting subdivision for area (101,121) to (118,138)
+Interior dimensions: 18x18
+	Created Bedroom at (101,121) to (104,124)  | Size is 4x4 | Area is 16
+	Created Kitchen at (101,126) to (104,129)  | Size is 4x4 | Area is 16
+	Created Bathroom at (106,121) to (109,124)  | Size is 4x4 | Area is 16
+	Created Living Room at (106,126) to (109,129)  | Size is 4x4 | Area is 16
+	Created Bedroom at (101,131) to (104,138)  | Size is 4x8 | Area is 32
+	Created Kitchen at (106,131) to (109,138)  | Size is 4x8 | Area is 32
+	Created Bathroom at (111,121) to (118,124)  | Size is 8x4 | Area is 32
+	Created Living Room at (111,126) to (118,129)  | Size is 8x4 | Area is 32
+	Created Bedroom at (111,131) to (118,138)  | Size is 8x8 | Area is 64
+Total rooms created 9
+	 Placing main entrance at generated plot (109, -60, 120)
+	 Placing doors on all room walls...
+	  Placed door at (102,-60,125)
+	  Placed door at 105, -60, 122
+	  Placed door at 105, -60, 127
+	  Placed door at (102,-60,130)
+	  Placed door at (107,-60,125)
+	  Placed door at 110, -60, 122
+	  Placed door at (107,-60,130)
+	  Placed door at 110, -60, 127
+	  Placed door at 105, -60, 134
+	  Placed door at 110, -60, 134
+	  Placed door at (114,-60,125)
+	  Placed door at (114,-60,130)
+	 Total doors placed: 12
+

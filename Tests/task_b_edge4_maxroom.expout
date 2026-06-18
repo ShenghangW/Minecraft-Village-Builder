@@ -1,0 +1,18 @@
+COMPONENT 2: Room Subdivision
+Seed is 42
+
+Total plots: 1
+
+	Building 20x20 house with height 6
+Starting subdivision for area (101,121) to (118,138)
+Interior dimensions: 18x18
+	Created Bedroom at (101,121) to (104,124)  | Size is 4x4 | Area is 16
+	Created Kitchen at (101,126) to (104,129)  | Size is 4x4 | Area is 16
+	Created Bathroom at (106,121) to (109,124)  | Size is 4x4 | Area is 16
+	Created Living Room at (106,126) to (109,129)  | Size is 4x4 | Area is 16
+	Created Bedroom at (101,131) to (104,138)  | Size is 4x8 | Area is 32
+	Created Kitchen at (106,131) to (109,138)  | Size is 4x8 | Area is 32
+	Created Bathroom at (111,121) to (118,124)  | Size is 8x4 | Area is 32
+	Created Living Room at (111,126) to (118,129)  | Size is 8x4 | Area is 32
+	Created Bedroom at (111,131) to (118,138)  | Size is 8x8 | Area is 64
+Total rooms created 9
